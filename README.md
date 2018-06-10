@@ -7,4 +7,17 @@
     common-maths: http://commons.apache.org/proper/commons-math/download_math.cgi<br>
     cloudSim: https://github.com/Cloudslab/cloudsim
   </li>
+  <li>
+    <b>cloudSim2.java</b><br>
+    A simulation of a cloud service using CloudSim 3.0.0<br>
+    <b>Features:</b>
+    <ol>
+      <li>One Datacenter: Four Hosts, Four cores with 1000 mips in each core, 8 GB RAM, 100 GB storage i.e. 100000 MB, 1 mbps i.e. 8000 Kbits/s           network bandwidth measured as Kbits/s
+      </li>
+      <li>One DataCenterBroker</li>
+      <li>CloudLets: 40 Cloudlets/tasks/workload, 40000 length of instructions, 300 kb input filesize, 400 kb output filesize, 1 core cpu
+        utilization model to full</li>
+      <li>Virtual Machines: 40 Virtual machines, 20 GB Storage disk, 2 GB RAM, 1 vCPU with 1000 mips CPU speed, 1000 kbits/s Bandwidth, Timeshared scheduler for cloudlets execution</li>
+    </ol>
+  </li>
  </ol>
