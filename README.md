@@ -3,9 +3,7 @@
 <ol>
   <li>
       <b>SimpleCloudSim.java:</b><br>
-    A simulation of a cloud service using the CloudSim 3.0.0 frame work and common-maths. It has 1 customer, broker, datacenter and cloudlet. The cloudlet has a virtual machine with 1500 mips (Million instructions per second), 10GB image size(10,000 MB), ram size of 600MB, and 1 cpu<br><br>
-    common-maths: http://commons.apache.org/proper/commons-math/download_math.cgi<br>
-    cloudSim: https://github.com/Cloudslab/cloudsim
+    A simulation of a cloud service using the CloudSim 3.0.0 frame work and common-maths. It has 1 customer, broker, datacenter and cloudlet. The cloudlet has a virtual machine with 1500 mips (Million instructions per second), 10GB image size(10,000 MB), ram size of 600MB, and 1 cpu    
   </li>
   <li>
     <b>cloudSim2.java</b><br>
@@ -21,3 +19,9 @@
     </ol>
   </li>
  </ol>
+ 
+<h2>Program dependencies</h2>
+<ul>
+  <li> <a href ="https://github.com/Cloudslab/cloudsim">CloudSim (cloudsim-3.0.3)</a></li>
+  <li> <a href="http://commons.apache.org/proper/commons-math/download_math.cgi">Apache Commons Math</a></li>
+</ul>
